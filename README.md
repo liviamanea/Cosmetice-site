@@ -5,10 +5,9 @@ About NewSkin
 American cosmetics site - shop cards for cosmetics, green tratments, healty meals supplements
 
 Built By
-This project is built and shared by
+This project is built and shared by Livia Manea
 
-Livia Manea
-Feedback
+
 If you have any feedback, please reach out to us at liviuta@hotmail.com
 
 Tags
