@@ -291,8 +291,8 @@ p {
   }
 
 
-  .linkuri {margin-top: 100px;
-    position: absolute;
+  .linkuri {margin-top: 10px;
+    position: relative;
     flex-direction:column;
     font-family: var(--font-family);
   flex-wrap: wrap;
