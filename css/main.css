@@ -1,8 +1,7 @@
 
 
 .container{
- 
-        
+      
         margin-left: 85px;
         transition: 0.5s;
     }
@@ -10,7 +9,6 @@
  
 
 header {
-   
     text-align: left;
     top: 10px;
     z-index: 1;
@@ -52,11 +50,11 @@ header {
 .list{
     display: grid;
     flex-wrap:flex;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 10px;
-    row-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
     width: auto;
-    margin-top: 35%;
+    margin-top: 33%;
     margin-left: 1px;
    
 }
@@ -66,12 +64,11 @@ header {
     box-shadow: 0 3px 20px rgb(124, 167, 203);
     border-radius: 5px;
     font-family:sans-serif; 
-   
-    padding:20px;
+       padding:10px;
 }
 .list .item img{
-   width: 150px;
-    height:150px;
+   width: 170px;
+    height:100px;
 }
 
 
@@ -150,12 +147,11 @@ header {
     grid-template-columns: 70px repeat(5, 0.5fr);
     color: #070101;
     row-gap: 10px;
-
    width:auto;
    z-index: -1;
 }
 .listCard li div{
-    
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
