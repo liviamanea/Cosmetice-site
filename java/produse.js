@@ -19,7 +19,7 @@ let products = [
     },
     {
         id: 2,
-        name: 'Salutați pletele cu aspect sănătos și mai strălucitoare. Șamponul ageLOC Nutriol pentru scalp și păr, susține părul subțire',
+        name: 'Salutați pletele cu aspect sănătos și mai strălucitoare. Șamponul ageLOC Nutriol pentru scalp și păr',
         image: '1.5.jpg',
         Text: '$',
         price: 118.00
@@ -40,14 +40,14 @@ let products = [
     },
     {
         id: 5,
-        name: 'Facute pentru a satisface cerințele vieții de zi cu zi, produsele Pharmanex Solutions oferă nutrienți specifici',
+        name: 'Facute pentru a satisface cerințele vieții de zi cu zi, produsele Pharmanex Solutions oferă nutrienți specifici acestei game',
         image: 'pharmanex.png',
         Text: '$',
         price: 173.00
     },
     {
         id: 6,
-        name: 'Dispunând de un luptător de plăgi brevetat international, AP-24 oferă îngrijire avansată a sănătății orale',
+        name: 'Dispunând de un luptător de plăgi brevetat international, AP-24 oferă îngrijire avansată a sănătății orale si a respiratiei fresh',
         image: 'pastadinti.png',
         Text: '$',
         price: 55.00
@@ -89,39 +89,27 @@ let products = [
     },
     {
         id: 12,
-        name: 'Salutați pletele cu aspect sănătos și strălucitor. Șamponul ageLOC Nutriol, susține părul subțire si degradat',
-        image: '16.jpg',
+        name: 'Conceput pentru a conține mai mult decât ceai, TRthriv Focus Tea este o băutură care vă ajută să vă începeți ziua cu bine',
+        image: 'tea.png',
         Text: '$',
-        price: 236.00
+        price: 76.00
     },
+   
     {
         id: 13,
-        name: 'Facute pentru a satisface cerințele vieții de zi cu zi, produsele Pharmanex Solutions oferă nutrienți specifici',
-        image: 'pharmanex.png',
-        Text: '$',
-        price: 173.00
-    },
-    {
-        id: 14,
         name: 'Vă prezentăm trusa TR90 de 30 de zile, un program de bunăstare jucăuș, conceput pentru a vă face mai sănătos',
         image: 'lemon.png',
         Text: '$',
         price: 55.00
     },
     {
-        id: 15,
+        id: 14,
         name: 'Ajută la susținerea întineririi celulare.Încetinește efectele comune ale îmbătrânirii prin protecția ADN-ului',
         image: 'omega.jpg',
         Text: '$',
         price: 240.00
     },
-    {
-        id: 16,
-        name: 'Conceput pentru a conține mai mult decât ceai, TRthriv Focus Tea este o băutură care vă ajută să vă începeți ziua cu bine',
-        image: 'tea.png',
-        Text: '$',
-        price: 76.00
-    }
+
 ];
 let listCards  = [];
 function initApp(){
@@ -166,8 +154,7 @@ function reloadCard(){
                     <button onclick="changeQuantity(${key}, ${value.quantity - 1})">-</button>
                     <div class="count">${value.quantity}</div>
                     <button onclick="changeQuantity(${key}, ${value.quantity + 1})">+</button>
-                
-               
+                              
                 </div>`;
                 
                 listCard.appendChild(newDiv);
