@@ -34,7 +34,7 @@ let products = [
     },
     {
         id: 4,
-        name: 'Conceput pentru a conține mai mult decât ceai, TRthriv Focus Tea este o băutură care vă ajută să vă începeți ziua cu bine',
+        name: 'Conceput pentru a conține mai mult decât ceai, TRthriv Focus Tea este o băutură pentru inceputul zilei',
         image: 'tea.png',
         Text: '$',
         price: 76.00
